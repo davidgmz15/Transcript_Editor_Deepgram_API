@@ -51,8 +51,6 @@ A Node.js script that transcribes audio files using Deepgram's API. It supports 
    - The script prints the filtered transcript with optional speaker labels and confidence highlighting.
    - Words with confidence below `highlightThreshold` are wrapped in asterisks.
 
-## Example Output
-
 ## Troubleshooting
 
 - **Error: "A deepgram API key is required"**  
@@ -64,6 +62,3 @@ A Node.js script that transcribes audio files using Deepgram's API. It supports 
 - **No output or "no words matched"**  
   Check your confidence thresholds and speaker filters.
 
-## License
-
-MIT
