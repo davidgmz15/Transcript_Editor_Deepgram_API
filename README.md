@@ -39,7 +39,7 @@ A Node.js script that transcribes audio files using Deepgram's API. It supports 
    const speakerId = null;        // Set to a number to filter by speaker, or null for all
    const showSpeakerLabels = true; // Toggle this to show/hide speaker identification
    const highlightThreshold = 0.30; // Words below this confidence will be highlighted
-   const speakerNames = { 0: 'Mau', 1: 'David' }; // Custom speaker names
+   const speakerNames = { 0: 'Bob', 1: 'Joe' }; // Custom speaker names
    ```
 
 2. **Run the script:**
