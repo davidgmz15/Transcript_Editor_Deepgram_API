@@ -11,7 +11,7 @@ const transcribe = async () => {
   const speakerId = null; // Set to a number to filter by speaker, or null for all
   const showSpeakerLabels = true; // Toggle this to show/hide speaker identification
   const highlightThreshold = 0.30; // Words below this confidence will be highlighted, null for no highlighting
-  const speakerNames = { 0: 'Mau', 1: 'David' };
+  const speakerNames = { 0: 'Bob', 1: 'Joe' };
 
   const { result, error } = await deepgram.listen.prerecorded.transcribeFile(
     fs.readFileSync("example.wav"),  // change this to the file you want to transcribe
